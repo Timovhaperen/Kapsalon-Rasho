@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kapsalon Rasho Made - Herenkapper & Barbershop | Marktstraat 32</title>
+    <meta name="description" content="Kapsalon Rasho in Made: moderne herenkapper met traditionele service. Inloop zonder afspraak, VIP-behandeling, scherpe prijzen. 6 dagen per week open, ook zondag!">
+    <meta name="keywords" content="kapsalon made, herenkapper made, barbershop made, kapper marktstraat, kapsalon rasho">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Kapsalon Rasho Made - Professionele Herenkapper">
+    <meta property="og:description" content="Inloop herenkapper met VIP-behandeling. Geen afspraak nodig, scherpe prijzen, ook zondag geopend.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Schema.org LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HairSalon",
+      "name": "Kapsalon Rasho",
+      "image": "assets/images/logo.png",
+      "description": "Professionele herenkapper in Made met familiesfeer en VIP-service",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Marktstraat 32",
+        "addressLocality": "Made",
+        "postalCode": "4921 EG",
+        "addressCountry": "NL"
+      },
+      "telephone": "[TELEFOONNUMMER]",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "10:00",
+          "closes": "15:00"
+        }
+      ],
+      "priceRange": "€€"
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#home" class="logo">
+                    <img src="assets/images/logo.png" alt="Kapsalon Rasho Logo">
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#over-ons">Over Ons</a></li>
+                    <li><a href="#diensten">Diensten</a></li>
+                    <li><a href="#prijzen">Prijzen</a></li>
+                    <li><a href="#galerij">Galerij</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="tel:[TELEFOONNUMMER]" class="btn-primary">Bel Nu</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <span class="hero-badge">EST. 2024</span>
+                <h1 class="hero-title">Welkom bij Kapsalon Rasho</h1>
+                <p class="hero-subtitle">Professionele herenkapper in het hart van Made<br>Inloop zonder afspraak · VIP-behandeling voor iedereen</p>
+                <div class="hero-cta">
+                    <a href="#diensten" class="btn btn-primary">Onze Diensten</a>
+                    <a href="#contact" class="btn btn-secondary">Bezoek Ons</a>
+                </div>
+                <div class="hero-features">
+                    <div class="feature-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                        <span>Geen Afspraak Nodig</span>
+                    </div>
+                    <div class="feature-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                        <span>Ook Zondag Open</span>
+                    </div>
+                    <div class="feature-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                        <span>Familiezaak</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="over-ons">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="assets/images/interior-main.jpg" alt="Kapsalon Rasho interieur met rustieke houten wand en moderne kappersstoelen">
+                    <div class="about-badge">
+                        <span class="badge-number">1</span>
+                        <span class="badge-text">Jaar<br>in Made</span>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-label">Ons Verhaal</span>
+                    <h2 class="section-title">Een Echte Familiezaak met Passie voor Vakmanschap</h2>
+                    <p class="lead">Al een jaar mogen we jullie verwelkomen op Marktstraat 32 in Made. Wat begon als een droom, is uitgegroeid tot een bruisende kapsalon waar vakmanschap, gastvrijheid en familiewaarden samenkomen.</p>
+                    <p>Onder leiding van Allah Rasho (26) en zijn team – broer Amer (20), Waad en Amer – bieden we professionele kapperdiensten met een persoonlijke touch. Elke klant wordt bij ons als een VIP behandeld, ongeacht of je voor een klassieke knipbeurt of moderne fade komt.</p>
+                    <p>Onze roots liggen in het Midden-Oosten, waar een verzorgd uiterlijk en traditioneel vakmanschap hoog in het vaandel staan. Die expertise combineren we met moderne technieken en trends. Het resultaat? Een unieke kapsalon waar traditie en vernieuwing elkaar versterken.</p>
+                    
+                    <div class="about-usps">
+                        <div class="usp-item">
+                            <div class="usp-icon">✓</div>
+                            <div class="usp-text">
+                                <h4>Inloopkapsalon</h4>
+                                <p>Zonder afspraak welkom, gewoon binnenlopen!</p>
+                            </div>
+                        </div>
+                        <div class="usp-item">
+                            <div class="usp-icon">✓</div>
+                            <div class="usp-text">
+                                <h4>VIP-Behandeling</h4>
+                                <p>Elke klant verdient eersteklas service</p>
+                            </div>
+                        </div>
+                        <div class="usp-item">
+                            <div class="usp-icon">✓</div>
+                            <div class="usp-text">
+                                <h4>Scherpe Prijzen</h4>
+                                <p>Topkwaliteit voor een eerlijke prijs</p>
+                            </div>
+                        </div>
+                        <div class="usp-item">
+                            <div class="usp-icon">✓</div>
+                            <div class="usp-text">
+                                <h4>Kindvriendelijk</h4>
+                                <p>Speciale auto-knipstoel voor de kleintjes</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <blockquote class="quote">
+                        "Hier in Made kunnen we een toekomst opbouwen. Het dorp accepteert ons en de kapsalon loopt als een trein."
+                        <cite>— Allah Rasho, eigenaar</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="diensten">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Wat We Doen</span>
+                <h2 class="section-title">Onze Diensten</h2>
+                <p class="section-description">Van klassiek tot modern – we beheersen elk stijl en techniek</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 7h-7m7 10h-7m-5-10v10m-3-7h6m-3-3v6"></path>
+                        </svg>
+                    </div>
+                    <h3>Heren Knippen</h3>
+                    <p>Klassieke knipbeurten, moderne styles en alles ertussenin. We adviseren je graag over de beste look voor jouw gezichtsvorm en levensstijl.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </div>
+                    <h3>Baard Trimmen & Scheren</h3>
+                    <p>Professionele baardverzorging met hete handdoek, precisie trimmen en traditionele scheerbeurt. Jouw baard in topvorm.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <h3>Fade & Skin Fade</h3>
+                    <p>Scherpe fades, perfecte overgangen en strakke lijnen. Van low fade tot high fade, we maken elke fade millimeternauwkeurig.</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"></path>
+                        </svg>
+                    </div>
+                    <h3>Kinder Knippen</h3>
+                    <p>Speciaal voor de kleintjes hebben we een stoere auto-knipstoel. We maken er een leuke ervaring van zodat knippen geen straf is!</p>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                        </svg>
+                    </div>
+                    <h3>Styling & Advies</h3>
+                    <p>Niet zeker welke look bij je past? We geven eerlijk advies en laten zien wat voor jou werkt. Compleet met stylingtips voor thuis.</p>
+                </div>
+                
+                <div class="service-card service-card-highlight" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-badge">Binnenkort</div>
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3>Binnenkort: Dames Knippen</h3>
+                    <p>We breiden uit! Binnenkort ook professionele kapperdiensten voor dames. Blijf op de hoogte via onze social media.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="prijzen">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Transparant & Eerlijk</span>
+                <h2 class="section-title">Onze Prijzen</h2>
+                <p class="section-description">Scherpe prijzen, topkwaliteit – geen verrassingen achteraf</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Knippen</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span class="service-name">Heren Knippen</span>
+                            <span class="price-dots"></span>
+                            <span class="service-price">€ 18,00</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Kinder Knippen (t/m 12 jaar)</span>
+                            <span class="price-dots"></span>
+                            <span class="service-price">€ 15,00</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Fade Knippen</span>
+                            <span class="price-dots"></span>
+                            <span class="service-price">€ 20,00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Baard & Scheren</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span class="service-name">Baard Trimmen</span>
+                            <span class="price-dots"></span>
+                            <span class="service-price">€ 10,00</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Traditioneel Scheren</span>
+                            <span class="price-dots"></span>
+                            <span class="service-price">€ 15,00</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Baard + Contouren</span>
+                            <span class="price-dots"></span>
+                            <span class="service-price">€ 12,00</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pricing-card pricing-card-featured" data-aos="fade-up" data-aos-delay="300">
+                    <div class="featured-badge">Populair</div>
+                    <h3>Combideals</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span class="service-name">Knippen + Baard</span>
+                            <span class="price-dots"></span>
+                            <span class="service-price">€ 25,00</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Knippen + Scheren</span>
+                            <span class="price-dots"></span>
+                            <span class="service-price">€ 30,00</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Complete Behandeling</span>
+                            <span class="price-dots"></span>
+                            <span class="service-price">€ 35,00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pricing-note" data-aos="fade-up">
+                <p><strong>Let op:</strong> Alle prijzen zijn indicatief. Exacte prijs kan variëren op basis van haarlengte en gewenste behandeling.</p>
+                <p><strong>Betaalmethoden:</strong> Contant & Pin</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Maak Kennis</span>
+                <h2 class="section-title">Ons Team</h2>
+                <p class="section-description">Ervaren professionals die hun vak met passie uitoefenen</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-image">
+                        <img src="assets/images/team-allah.jpg" alt="Allah Rasho - Eigenaar en Master Barber">
+                    </div>
+                    <div class="team-info">
+                        <h3>Allah Rasho</h3>
+                        <span class="team-role">Eigenaar & Master Barber</span>
+                        <p>Met zes jaar ervaring in Nederland en jarenlange training brengt Allah traditioneel vakmanschap en moderne technieken samen.</p>
+                    </div>
+                </div>
+                
+                <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-image">
+                        <img src="assets/images/team-amer.jpg" alt="Amer Rasho - Barber">
+                    </div>
+                    <div class="team-info">
+                        <h3>Amer Rasho</h3>
+                        <span class="team-role">Barber</span>
+                        <p>De jongere broer van Allah, gespecialiseerd in moderne fades en strakke lijnen. Precisie is zijn tweede natuur.</p>
+                    </div>
+                </div>
+                
+                <div class="team-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="team-image">
+                        <img src="assets/images/team-waad.jpg" alt="Waad - Barber">
+                    </div>
+                    <div class="team-info">
+                        <h3>Waad</h3>
+                        <span class="team-role">Barber</span>
+                        <p>Specialist in klassieke knipbeurten en baardverzorging. Bekend om zijn oog voor detail en vriendelijke service.</p>
+                    </div>
+                </div>
+                
+                <div class="team-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team-image">
+                        <img src="assets/images/team-amer2.jpg" alt="Amer - Barber">
+                    </div>
+                    <div class="team-info">
+                        <h3>Amer</h3>
+                        <span class="team-role">Barber</span>
+                        <p>Allround kapper met een passie voor styling en advies. Helpt je graag om de perfecte look te vinden.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="galerij">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Onze Werken</span>
+                <h2 class="section-title">Galerij</h2>
+                <p class="section-description">Een kijkje in onze salon en ons vakmanschap</p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/images/interior-rustic.jpg" alt="Rustiek interieur Kapsalon Rasho met vintage kasten en moderne faciliteiten">
+                    <div class="gallery-overlay">
+                        <span>Onze Salon</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="assets/images/team-working.jpg" alt="Team van Kapsalon Rasho aan het werk in moderne barbershop">
+                    <div class="gallery-overlay">
+                        <span>Ons Team</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <img src="assets/images/cut-result-1.jpg" alt="Professionele fade haircut resultaat">
+                    <div class="gallery-overlay">
+                        <span>Fade</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="400">
+                    <img src="assets/images/cut-result-2.jpg" alt="Klassieke heren knipbeurt met strakke lijnen">
+                    <div class="gallery-overlay">
+                        <span>Classic Cut</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="500">
+                    <img src="assets/images/beard-trim.jpg" alt="Baard trimmen en verzorging">
+                    <div class="gallery-overlay">
+                        <span>Baard Trimmen</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="600">
+                    <img src="assets/images/detail-station.jpg" alt="Professionele kappersstoel en werkplek">
+                    <div class="gallery-overlay">
+                        <span>Details</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Wat Klanten Zeggen</span>
+                <h2 class="section-title">Reviews</h2>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Top kapsalon! Zonder afspraak binnenlopen en altijd netjes geholpen. De sfeer is gezellig en de jongens weten echt wat ze doen. Aanrader!"</p>
+                    <div class="reviewer">
+                        <strong>Mark V.</strong>
+                        <span>Vaste klant</span>
+                    </div>
+                </div>
+                
+                <div class="review-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Mijn zoon vond knippen altijd eng, maar dankzij de auto-stoel en het geduld van het team gaat hij nu graag mee. Echt een aanrader voor kinderen!"</p>
+                    <div class="reviewer">
+                        <strong>Sandra B.</strong>
+                        <span>Moeder van klant</span>
+                    </div>
+                </div>
+                
+                <div class="review-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stars">★★★★★</div>
+                    <p class="review-text">"Beste fade die ik ooit heb gehad! Scherpe lijnen, perfecte overgangen. De jongens zijn professionals en de prijs is meer dan eerlijk."</p>
+                    <div class="reviewer">
+                        <strong>Jordy M.</strong>
+                        <span>Google Review</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="reviews-cta" data-aos="fade-up">
+                <p>Kom je ook onze service ervaren? Loop gerust binnen!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-label">Kom Langs</span>
+                <h2 class="section-title">Contact & Openingstijden</h2>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-block">
+                        <h3>Adres</h3>
+                        <p>Marktstraat 32<br>4921 EG Made<br>Nederland</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Marktstraat+32+Made" target="_blank" class="btn btn-outline">Route Plannen</a>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3>Contact</h3>
+                        <p>
+                            <strong>Telefoon:</strong><br>
+                            <a href="tel:[TELEFOONNUMMER]">[TELEFOONNUMMER]</a>
+                        </p>
+                        <p>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:info@kapsalonrasho.nl">info@kapsalonrasho.nl</a>
+                        </p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3>Openingstijden</h3>
+                        <table class="hours-table">
+                            <tr>
+                                <td>Maandag</td>
+                                <td class="closed">Gesloten</td>
+                            </tr>
+                            <tr>
+                                <td>Dinsdag - Zaterdag</td>
+                                <td>09:00 - 18:00</td>
+                            </tr>
+                            <tr class="highlight">
+                                <td>Zondag</td>
+                                <td>10:00 - 15:00</td>
+                            </tr>
+                        </table>
+                        <p class="hours-note"><strong>Let op:</strong> Geen afspraak nodig, gewoon binnenlopen!</p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3>Belangrijk om te Weten</h3>
+                        <ul class="info-list">
+                            <li>✓ Inloop zonder afspraak</li>
+                            <li>✓ Betalen met pin en contant</li>
+                            <li>✓ Gratis parkeren in de buurt</li>
+                            <li>✓ Kindvriendelijke omgeving</li>
+                            <li>✓ Professionele producten</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="contact-map" data-aos="fade-left">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2449.123456789!2d4.7!3d51.68!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDQwJzQ4LjAiTiA0wrA0MicwMC4wIkU!5e0!3m2!1snl!2snl!4v1234567890"
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Locatie Kapsalon Rasho op Google Maps">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="assets/images/logo.png" alt="Kapsalon Rasho" class="footer-logo">
+                    <p>Professionele herenkapper in Made met traditionele service en moderne technieken.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path></svg></a>
+                        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Navigatie</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#over-ons">Over Ons</a></li>
+                        <li><a href="#diensten">Diensten</a></li>
+                        <li><a href="#prijzen">Prijzen</a></li>
+                        <li><a href="#galerij">Galerij</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li>Marktstraat 32</li>
+                        <li>4921 EG Made</li>
+                        <li><a href="tel:[TELEFOONNUMMER]">[TELEFOONNUMMER]</a></li>
+                        <li><a href="mailto:info@kapsalonrasho.nl">info@kapsalonrasho.nl</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Openingstijden</h4>
+                    <ul>
+                        <li>Ma: <span>Gesloten</span></li>
+                        <li>Di - Za: <span>09:00 - 18:00</span></li>
+                        <li>Zo: <span>10:00 - 15:00</span></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kapsalon Rasho. Alle rechten voorbehouden.</p>
+                <p>Ontworpen met ❤️ voor Made</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Scroll naar boven">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
